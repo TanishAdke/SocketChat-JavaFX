@@ -1,0 +1,35 @@
+SocketChat-JavaFX is a lightweight LAN chat application built in Java using TCP sockets and JavaFX for its graphical interface.
+It enables multiple users connected to the same network to chat in real time — no external servers or internet access required.
+
+This project demonstrates practical networking concepts (sockets, I/O streams, threading) combined with a modern GUI layer, making it a perfect reference for learning Java network programming and JavaFX.
+
+✨ Features
+
+Real-time local network (LAN) messaging
+
+Host or join chat sessions dynamically
+
+Clean and responsive JavaFX UI
+
+Multi-client support
+
+Works on Windows, macOS, and Linux
+
+Modular code structure — easy to extend (add encryption, usernames, timestamps, etc.)
+
+⚙️ Dependencies
+Component	Version	Purpose
+Java JDK	17 or newer	Core language runtime
+JavaFX SDK	17+ (e.g., 23.0.1)	GUI framework for building desktop apps
+
+💡 Note: JavaFX is no longer bundled with most JDKs (Adoptium, OpenJDK, Corretto, etc.), so it must be downloaded separately.
+
+🔗 Installation Links
+
+JavaFX SDK: https://openjfx.io
+
+Download the latest SDK for your OS and unzip it to a known location (e.g. C:\javafx on Windows).
+
+JDK (Eclipse Adoptium): https://adoptium.net
+
+Install the latest LTS version (e.g. JDK 21 or newer).
